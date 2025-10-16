@@ -131,7 +131,6 @@ footer p {
 .characters > div {
   padding: 30px;
 }
-
 .characters img {
   width: 150px;
   height: 150px;
@@ -142,14 +141,12 @@ footer p {
   object-fit: cover;
   object-position: top;
 }
-
 .characters p {
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: bold;
   color: var(--Gold, #b99049);
 }
-
 .gryffindor:hover img {
   border-color: #AC0001; 
 }
