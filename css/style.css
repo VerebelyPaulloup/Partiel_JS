@@ -131,18 +131,36 @@ footer p {
 .characters > div {
   padding: 30px;
 }
+
 .characters img {
   width: 150px;
   height: 150px;
   border-radius: 150px;
   border: 8px solid var(--Gold, #b99049);
-  background: url(<path-to-image>), lightgray -1.24px 0px/101.653% 141.566% no-repeat;
+  background: url(<path-to-image>), rgb(14, 13, 13) -1.24px 0px/101.653% 141.566% no-repeat;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   object-fit: cover;
+  object-position: top;
 }
+
 .characters p {
   text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-weight: bold;
   color: var(--Gold, #b99049);
+}
+
+.gryffindor:hover img {
+  border-color: #AC0001; 
+}
+.slytherin:hover img {
+  border-color: #1A472A;
+}
+.hufflepuff:hover img {
+  border-color: #EEB939;
+}
+.ravenclaw:hover img {
+  border-color: #4a8eac;
 }
 
 /* PAGE PERSO */
